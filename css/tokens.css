@@ -1,0 +1,55 @@
+/* Design tokens — the ONLY place raw colors, font names and scale values may appear.
+   Rules and rationale: DESIGN_GUIDELINES.md */
+:root {
+  /* Color: white gallery */
+  --paper: #ffffff;
+  --paper-raised: #f6f4ef;
+  --line: rgb(26 24 21 / 0.12);
+  --ink: #1a1815;
+  --ink-muted: #6b665c;
+  --gold: #c9a24b;
+  --gold-bright: #e6c776;
+  --gold-deep: #8c6a27;
+  --glow: 0 0 120px 20px rgb(201 162 75 / 0.12);
+  --glow-wash: rgb(201 162 75 / 0.1);
+  --glow-deep: rgb(201 162 75 / 0.26);
+
+  /* Type */
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-ui: "Jost", system-ui, sans-serif;
+  --step--1: clamp(0.75rem, 0.73rem + 0.1vw, 0.8125rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --step-2: clamp(1.375rem, 1.25rem + 0.6vw, 1.75rem);
+  --step-4: clamp(2.25rem, 1.6rem + 3vw, 4rem);
+  --step-5: clamp(3rem, 1.8rem + 6vw, 7rem);
+
+  /* Space (8px grid) */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+  --space-7: 5rem;
+  --space-8: 7rem;
+  --space-9: 10rem;
+
+  /* Layout */
+  --content-max: 1200px;
+  --measure: 62ch;
+  --gutter: 20px;
+  --radius: 2px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-1: 200ms;
+  --dur-2: 450ms;
+  --dur-3: 900ms;
+}
+
+@media (min-width: 720px) {
+  :root { --gutter: 40px; }
+}
+@media (min-width: 1100px) {
+  :root { --gutter: 64px; }
+}
