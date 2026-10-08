@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marlyn Jewelry — Gold in Naga since 1988</title>
+  <meta name="description" content="Marlyn Jewelry, formerly Jaeum Silver and Gold. Gold jewelry in Naga City since 1988. Reserve a piece on Messenger and view it at one of our three branches.">
+  <link rel="icon" href="assets/img/brand/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Marlyn Jewelry, home"><img src="assets/img/brand/logo.jpg" alt="" width="44" height="44"></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#collection">Collection</a>
+      <a href="#branches">Branches</a>
+      <a href="#reserve" class="nav-reserve">Reserve</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Scroll-driven 3D showcase -->
+    <section class="stage" id="stage" aria-label="Featured piece">
+      <div class="stage-pin">
+        <div class="stage-glow" aria-hidden="true"></div>
+        <div class="stage-orbit" aria-hidden="true"></div>
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <img class="stage-fallback" src="assets/img/products/ring-hearts.jpg" alt="Gold ring with a row of open hearts" hidden>
+
+        <div class="chapter" data-from="0" data-to="0.2">
+          <p class="eyebrow">Since 1988</p>
+          <h1>Gold, <em>turned</em> in the light.</h1>
+        </div>
+        <div class="chapter" data-from="0.26" data-to="0.56" data-side="right">
+          <p class="eyebrow">The detail</p>
+          <h2>Every facet, <em>considered.</em></h2>
+          <p>Cut, set and finished with the patience of a shop that has been in Naga for over thirty years.</p>
+        </div>
+        <div class="chapter" data-from="0.66" data-to="0.97">
+          <p class="eyebrow">In person</p>
+          <h2>See it on <em>your</em> hand.</h2>
+          <p>Reserve on Messenger, then visit us at any of our three branches.</p>
+          <a class="btn btn-primary" data-messenger href="#reserve">Reserve on Messenger</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="collection">
+      <div class="wrap">
+        <p class="eyebrow reveal">The collection</p>
+        <h2 class="reveal">Pieces from our cases</h2>
+        <div class="chips reveal" role="group" aria-label="Filter by category" id="chips"></div>
+        <ul class="grid" id="grid"></ul>
+      </div>
+    </section>
+
+    <section class="section section-raised" id="reserve">
+      <div class="wrap narrow">
+        <p class="eyebrow reveal">Reserve</p>
+        <h2 class="reveal">Choose online. <em>Collect in person.</em></h2>
+        <ol class="steps">
+          <li class="reveal"><span class="num">01</span><h3>Choose a piece</h3><p>Browse the collection and tap Reserve on anything you like.</p></li>
+          <li class="reveal"><span class="num">02</span><h3>Message us</h3><p>We confirm availability with you on Messenger.</p></li>
+          <li class="reveal"><span class="num">03</span><h3>Visit a branch</h3><p>See the piece, try it on and collect it in person. We do not deliver online orders.</p></li>
+        </ol>
+        <a class="btn btn-primary reveal" data-messenger href="#">Reserve on Messenger</a>
+      </div>
+    </section>
+
+    <section class="section" id="branches">
+      <div class="wrap">
+        <p class="eyebrow reveal">Branches</p>
+        <h2 class="reveal">Three places in <em>Naga</em></h2>
+        <ul class="branches" id="branch-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>Marlyn Jewelry · Since <span id="since"></span><br><span class="muted">Formerly <span id="formerly"></span></span></p>
+      <p><a id="ig" href="#" rel="noopener">Instagram</a> · <a data-messenger href="#">Messenger</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
