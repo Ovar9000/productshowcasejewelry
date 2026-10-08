@@ -1,0 +1,13 @@
+[
+  { "id": "ring-hearts", "name": "Open Hearts Ring", "category": "Rings", "images": ["ring-hearts.jpg"], "alt": "Gold ring with a row of open hearts, two set with small stones", "price": null, "available": true },
+  { "id": "ring-infinity-pave", "name": "Infinity Pavé Ring", "category": "Rings", "images": ["ring-infinity-pave.jpg"], "alt": "Gold infinity-twist ring with a line of small stones", "price": null, "available": true },
+  { "id": "ring-eternity-double-pave", "name": "Double Row Pavé Band", "category": "Rings", "images": ["ring-eternity-double-pave.jpg"], "alt": "Gold band with two rows of prong-set stones", "price": null, "available": true },
+  { "id": "ring-wave-stones", "name": "Wave Ring with Scattered Stones", "category": "Rings", "images": ["ring-wave-stones.jpg"], "alt": "Polished gold wave-shaped ring with small flush-set stones", "price": null, "available": true },
+  { "id": "ring-crown", "name": "Filigree Crown Ring", "category": "Rings", "images": ["ring-crown.jpg"], "alt": "Gold ring shaped like a crown with scrolled filigree", "price": null, "available": true },
+  { "id": "ring-fleur", "name": "Flower Cut-Out Ring", "category": "Rings", "images": ["ring-fleur.jpg"], "alt": "Gold ring with a diamond-shaped cut-out and a four-petal flower", "price": null, "available": true },
+  { "id": "bracelet-curb-id", "name": "Curb ID Bracelet", "category": "Bracelets", "images": ["bracelet-curb-id.jpg"], "alt": "Heavy gold curb-link bracelet with a flat ID plate and lobster clasp", "price": null, "available": true },
+  { "id": "bracelet-double-curb", "name": "Double Curb Bracelet", "category": "Bracelets", "images": ["bracelet-double-curb.jpg"], "alt": "Wide gold double-curb bracelet with hook clasp", "price": null, "available": true },
+  { "id": "bracelet-mesh-engraved", "name": "Engraved Mesh Bracelet", "category": "Bracelets", "images": ["bracelet-mesh-engraved.jpg", "bracelet-mesh-engraved-detail.jpg"], "alt": "Gold mesh bracelet with engraved rectangular plates", "price": null, "available": true },
+  { "id": "necklace-oval-link", "name": "Diamond-Cut Oval Link Necklace", "category": "Necklaces", "images": ["necklace-oval-link.jpg", "necklace-oval-link-detail.jpg"], "alt": "Gold necklace of layered oval links with diamond-cut facets", "price": null, "available": true },
+  { "id": "earrings-nail-huggie", "name": "Nail Huggie Earrings", "category": "Earrings", "images": ["earrings-nail-huggie.jpg"], "alt": "Pair of gold huggie earrings with a nail-head detail", "price": null, "available": true }
+]
