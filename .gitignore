@@ -1,0 +1,12 @@
+# local tooling and editor/OS noise
+.claude/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+node_modules/
+
+# raw originals dropped in the project root; clean copies live in assets/img/source and assets/img/brand
+/[0-9]*_n.jpg
+/Screenshot *.png
+/Logo.jpg
